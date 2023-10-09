@@ -48,7 +48,7 @@ export function Form({ handleAddContact }) {
         type="text"
         value={name}
         name="name"
-        placeholder="Gomez Simpson"
+        placeholder="Name Surname"
         pattern="^[a-zA-Zа-яА-Я]+(([' \-][a-zA-Zа-яА-Я ])?[a-zA-Zа-яА-Я]*)*$"
         title="Name may contain only letters, apostrophe, dash and spaces. For example Adrian, Jacob Mercer, Charles de Batz de Castelmore d'Artagnan"
         required
@@ -61,7 +61,7 @@ export function Form({ handleAddContact }) {
         type="tel"
         name="number"
         value={number}
-        placeholder="777-77-77"
+        placeholder="123-45-67"
         pattern="\+?\d{1,4}?[\-.\s]?\(?\d{1,3}?\)?[\-.\s]?\d{1,4}[\-.\s]?\d{1,4}[\-.\s]?\d{1,9}"
         title="Phone number must be digits and can contain spaces, dashes, parentheses and can start with +"
         required
